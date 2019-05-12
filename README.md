@@ -1,11 +1,12 @@
 # raspberry
 #### 基于树莓派3B+的环境数据收集系统，可在Web上实时观测数据及触发报警
-[我的博客 okoke.cn](http://okoke.cn "okoke")  
+
 * dht11.py 温湿度采集
 * rain.py  雨滴
 * ligth.py 光敏
 * fire.py 火焰
 * source-buzzer.py  有源蜂鸣器
+* bate.py 综合所有传感器 （阈值触发蜂鸣器）
 
 自动执行代码并上传数据
 
@@ -29,7 +30,6 @@ http://oker.ooo
 * 支持断点续传
 * json文件输出
 * 后端轻量、稳定
- 
  
  
 ### 接线方案
@@ -58,4 +58,4 @@ http://oker.ooo
     sudo python setup.py install
     sudo pip install RPi.GPIO
 
-
+[我的博客 okoke.cn](http://okoke.cn "okoke")  
