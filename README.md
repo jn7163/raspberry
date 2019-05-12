@@ -36,7 +36,7 @@ http://oker.ooo
 ## 接线方案
 树莓派3B的GPIO图如下：
 [![GPIO]](https://github.com)  
-[GPIO]:https://github.com/okoke/raspberry/img/gpio_pin.png "GPIO"  
+[GPIO]:https://github.com/yfgeek/rpi-TempRuntime/raw/master/images/2.png "GPIO"  
 
 * 连接DHT11,数据传输到GPIO
 
