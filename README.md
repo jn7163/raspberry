@@ -29,16 +29,15 @@ http://oker.ooo
  
 ### 接线方案
 
-* 连接DHT11
-接线简单，主要是把数据传输到GPIO上
+* 连接DHT11,数据传输到GPIO上
 
-    DHT11有3个脚,VCC,DATA,GND
+      DHT11有3个脚,VCC,DATA,GND
 
-    VCC,接 3.3V,PIN 01
+      VCC,接 3.3V,PIN 01
 
-    GND,接地,PIN 09
+      GND,接地,PIN 09
 
-    DATA,接 GPIO26,PIN 37(根据程序里GPIO定义接)
+      DATA,接 GPIO26,PIN 37(根据程序里GPIO定义接)
 
 
 ### 依赖
