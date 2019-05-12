@@ -1,5 +1,6 @@
 # raspberry
 #### 基于树莓派3B+的环境数据收集系统，可在Web上实时观测数据及触发报警
+#### 拿着江老师的树莓派，手抖下次此文，给学弟们留点文档 呃呃呃
 
 * dht11.py 温湿度采集
 * rain.py  雨滴
@@ -57,5 +58,10 @@ http://oker.ooo
     cd Adafruit_Python_DHT
     sudo python setup.py install
     sudo pip install RPi.GPIO
+    
+### 运行
+    python bate.py
+    
+### 后续等等更新...
 
 [我的博客 okoke.cn](http://okoke.cn "okoke")  
