@@ -1,6 +1,6 @@
 # raspberry
 #### 基于树莓派3B+的环境数据收集系统，可在Web上实时观测数据及触发报警
-
+[我的博客 okoke.cn](http://okoke.cn "okoke")  
 * dht11.py 温湿度采集
 * rain.py  雨滴
 * ligth.py 光敏
@@ -59,4 +59,3 @@ http://oker.ooo
     sudo pip install RPi.GPIO
 
 
-[我的博客](http://okoke.cn "悬停显示")  
