@@ -1,5 +1,5 @@
 # raspberry
-------- 基于树莓派3B+的环境数据收集系统，可在Web上实时观测数据及触发报警
+#### 基于树莓派3B+的环境数据收集系统，可在Web上实时观测数据及触发报警
 dht11.py
 
 自动执行代码并上传数据
@@ -18,6 +18,7 @@ http://oker.ooo
 
 ### 架构
 前端：Semantic UI + eCharts + JQuery Datapicker
+
 后端：Python + Apache
 
 * 支持断点续传
@@ -26,7 +27,9 @@ http://oker.ooo
  
  
  
-### DHT11 接线方案
+### 接线方案
+
+* 连接DHT11
 接线简单，主要是把数据传输到GPIO上
 
     DHT11有3个脚,VCC,DATA,GND
