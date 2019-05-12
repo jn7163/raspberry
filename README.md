@@ -34,6 +34,9 @@ http://oker.ooo
  
  
 ## 接线方案
+树莓派3B的GPIO图如下：
+[![GPIO]](https://github.com)  
+[GPIO]:https://github.com/okoke/raspberry/images/gpio_pin.png "GPIO"  
 
 * 连接DHT11,数据传输到GPIO
 
@@ -62,6 +65,6 @@ http://oker.ooo
 ## 运行
     python bate.py
     
-## 后续等等更新...
+## 后续等待更新...
 
 [我的博客 okoke.cn](http://okoke.cn "okoke")  
