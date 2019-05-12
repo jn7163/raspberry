@@ -19,24 +19,22 @@ http://oker.ooo
 前端：Semantic UI + eCharts + JQuery Datapicker
 后端：Python + Apache
 
-支持断点续传
-
-json文件输出
-
-后端轻量、稳定
+* 支持断点续传
+* json文件输出
+* 后端轻量、稳定
  
  
  
 ### DHT11 接线方案
 接线简单，主要是把数据传输到GPIO上
 
-DHT11有3个脚,VCC,DATA,GND
+    DHT11有3个脚,VCC,DATA,GND
 
-VCC,接 3.3V,PIN 01
+    VCC,接 3.3V,PIN 01
 
-GND,接地,PIN 09
+    GND,接地,PIN 09
 
-DATA,接 GPIO26,PIN 37(根据程序里GPIO定义接)
+    DATA,接 GPIO26,PIN 37(根据程序里GPIO定义接)
 
 
 ### 依赖
