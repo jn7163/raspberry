@@ -1,6 +1,6 @@
 # raspberry
 #### 基于树莓派3B+的环境数据收集系统，可在Web上实时观测数据及触发报警
-##### 拿着江老师的树莓派，手抖的，给学弟们留点文档 呃呃，挑战杯！
+###### 拿着江老师的树莓派，手抖的，给学弟们留点文档 呃呃，挑战杯！
 
 * dht11.py 温湿度采集
 * rain.py  雨滴
@@ -19,11 +19,11 @@
 
     */1 * * * * python /home/pi/pi/test/dht11/tmp_data_up.py #温度上传至onenet平台
 
-### Demo
+## Demo
 http://oker.ooo
 
 
-### 架构
+## 架构
 前端：Semantic UI + eCharts + JQuery Datapicker
 
 后端：Python + Apache
@@ -33,7 +33,7 @@ http://oker.ooo
 * 后端轻量、稳定
  
  
-### 接线方案
+## 接线方案
 
 * 连接DHT11,数据传输到GPIO
 
@@ -46,11 +46,11 @@ http://oker.ooo
       DATA,接 GPIO26,PIN 37(根据程序里GPIO定义接)
 * 其他接线 代码中都有定义
 
-### 依赖
+## 依赖
 * Adafruit_DHT
 * Nginx/Apache (请自行提前安装)
 
-### 安装依赖
+## 安装依赖
     sudo apt-get update
     sudo apt-get install python-dev python-rpi.gpio
     sudo apt-get install build-essential python-dev python-smbus python-pip
@@ -59,9 +59,9 @@ http://oker.ooo
     sudo python setup.py install
     sudo pip install RPi.GPIO
     
-### 运行
+## 运行
     python bate.py
     
-### 后续等等更新...
+## 后续等等更新...
 
 [我的博客 okoke.cn](http://okoke.cn "okoke")  
