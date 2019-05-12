@@ -3,13 +3,14 @@
 dht11.py
 
 自动执行代码并上传数据
-sudo crontab -e
 
-*/1 * * * * python /home/pi/pi/test/dht11/dht11.py #温度湿度检测
+    sudo crontab -e
+     
+    */1 * * * * python /home/pi/pi/test/dht11/dht11.py #温度湿度检测
 
-*/1 * * * * python /home/pi/pi/test/dht11/hum_data_up.py #湿度上传至onenet平台
+    */1 * * * * python /home/pi/pi/test/dht11/hum_data_up.py #湿度上传至onenet平台
 
-*/1 * * * * python /home/pi/pi/test/dht11/tmp_data_up.py #温度上传至onenet平台
+    */1 * * * * python /home/pi/pi/test/dht11/tmp_data_up.py #温度上传至onenet平台
 
 ### Demo
 http://oker.ooo
@@ -38,17 +39,17 @@ http://oker.ooo
 
 
 ### 依赖
-Adafruit_DHT
-Nginx/Apache (请自行提前安装)
+* Adafruit_DHT
+* Nginx/Apache (请自行提前安装)
 
 ### 安装依赖
-sudo apt-get update
-sudo apt-get install python-dev python-rpi.gpio
-sudo apt-get install build-essential python-dev python-smbus python-pip
-git clone https://github.com/adafruit/Adafruit_Python_DHT.git
-cd Adafruit_Python_DHT
-sudo python setup.py install
-sudo pip install RPi.GPIO
+    sudo apt-get update
+    sudo apt-get install python-dev python-rpi.gpio
+    sudo apt-get install build-essential python-dev python-smbus python-pip
+    git clone https://github.com/adafruit/Adafruit_Python_DHT.git
+    cd Adafruit_Python_DHT
+    sudo python setup.py install
+    sudo pip install RPi.GPIO
 
 
 
